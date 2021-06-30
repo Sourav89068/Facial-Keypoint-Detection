@@ -1,5 +1,9 @@
 # Facial-Keypoint-Detection
 
+### *Google Slides Presentation*
+[Presentation_link](https://docs.google.com/presentation/d/1KPSueCrE0fJeTyjajLtvz2Chc0XFCJFt0rtyjsphYrM/edit?usp=sharing)
+
+
 # Getting Started
 
 Create a virtual environment and activate it
@@ -7,7 +11,7 @@ Create a virtual environment and activate it
 python3 -m venv ./venv
 source venv/bin/activate
 ```
-Installing cuda requires following commands
+Installing cuda requires following commands(Refer to the official site)
 ```
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
 
@@ -31,7 +35,7 @@ sudo apt-get update
 sudo apt-get -y install cuda
 ```
 
-Installing torch packages
+Installing torch packages ( For cpu only, refer to the pytorch official site to install for gpu or any other help)
 ```
 pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 ```
@@ -90,8 +94,6 @@ Prediction of keypoints
 ![Predicted Image](a.png)
 
 
-### *Google Slides Presentation*
-[Presentation_link](https://docs.google.com/presentation/d/1KPSueCrE0fJeTyjajLtvz2Chc0XFCJFt0rtyjsphYrM/edit?usp=sharing)
 
 ### References:
 1. https://ieeexplore.ieee.org/document/9065279
